@@ -1,0 +1,45 @@
+body{
+    background: url('back.jpg') fixed;
+    
+    color: black;
+ 
+
+ }
+ .container{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+   transform: translate(-50%,-50%);
+  
+ }
+ .container h1{
+   
+    text-align: center;
+    
+ }
+ .container p{
+    font-size: 20px;
+    
+ }
+ .container input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    
+    
+             
+ }
+ .container button{
+    
+    
+    margin: 20px 0px;
+    padding: 10px 15px;
+    width: 50%;
+   
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+ }
+ .container button:hover{
+    color: red;
+ }
